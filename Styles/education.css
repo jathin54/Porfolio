@@ -1,0 +1,20 @@
+.study-container{
+    border:solid 3px gray;
+    display:inline-block;
+    border-radius:25px;
+    margin-left: 275px;
+    margin-top: 20px;
+}
+.degreehat{
+    width: 150px;
+    height:150px;
+    border-radius: 80px;
+    margin-left: 25px;
+    vertical-align: middle;
+}
+.degree{
+    display:inline-block;
+    margin-left: 50px;
+    vertical-align: middle;
+    padding-right: 20px;
+}

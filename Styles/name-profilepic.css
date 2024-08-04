@@ -1,0 +1,84 @@
+.name-profile{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgba(122, 170, 170, 0.918);
+    border-radius: 30px;
+
+}
+ .profilepic{
+    width: 300px;
+    height:300px;
+    border-radius: 250px;
+    display: inline-block;
+    padding: 20px;
+ }
+ .namediv{
+   margin-left: 30px;
+ }
+ .name{
+    position:relative;
+    font-size: 85px;
+    font-family: "Teko", sans-serif;
+    color: black;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    text-transform: uppercase;
+    display: flex;
+ }
+ .name::before{
+    content: attr(data-text);
+    position:absolute;
+    width:0;
+    top: 0;
+    left: 0;
+    height:100%;
+    color:white;
+    overflow: hidden;
+    animation: animate 1s linear forwards;
+ }
+ @keyframes animate {
+    0%{
+        width: 0;
+    }
+    
+    100%
+    {
+        width:100%;
+    }
+ }
+ .contact-container{
+    display:flex;
+    justify-content: space-between;
+    margin-top: -100px;
+ }
+ #mail-icon{
+    height: 35px;
+    width: 35px;
+    color:White;
+    background-color: #ffffff;
+    border-radius:10px;
+    vertical-align: middle;
+    margin-right: 15px;
+ }
+ #linkedin-icon{
+    height: 35px;
+    width: 35px;
+    color:White;
+    background-color: #ffffff;
+    border-radius:10px;
+    vertical-align: middle;
+    margin-right: 15px;
+ }
+ #call-icon{
+    height: 35px;
+    width: 35px;
+    color:White;
+    background-color: #ffffff;
+    border-radius:10px;
+    margin-right: 15px;
+    vertical-align: middle;
+ }
+.study-container{
+   padding: 10px;
+}

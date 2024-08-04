@@ -1,0 +1,36 @@
+.L1{
+    width: 200px;
+    height: 300px;
+}
+#java-logo{
+    width: 200px;
+    height: 200px;
+}
+.languages-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    margin-bottom: 100px;
+    column-gap: 20px;
+
+}
+.language-name{
+    text-align: center;
+}
+.internship-container{
+    display:flex;
+    align-items: center;
+    border: 2px solid rgb(250, 233, 2);
+    border-radius: 20px;
+
+}
+#intern-logo{
+    width: 250px;
+    height: 250px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 6px rgb(255, 255, 255);
+}
+.intern-descrption{
+    margin-left:50px ;
+}
