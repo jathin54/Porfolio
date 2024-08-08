@@ -3,8 +3,12 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    background-color: rgba(122, 170, 170, 0.918);
-    border-radius: 30px;
+    background: linear-gradient(135deg, rgba(20, 156, 197, 0.1),rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
 
 }
  .profilepic{
